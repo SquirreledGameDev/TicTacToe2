@@ -1,0 +1,21 @@
+.game {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  .board {
+    display: flex;
+    .field {
+      display: grid;
+      place-items: center;
+      width: 15vw;
+      height: 20vw;
+    }
+    .field0_0, .field1_0, .field0_1, .field1_1,.field0_2, .field1_2 {
+      border-right: black 2px solid;
+    }
+    .field0_0, .field1_0, .field2_0, .field0_1, .field1_1, .field2_1 {
+      border-bottom: black 2px solid;
+    }
+  }
+}
